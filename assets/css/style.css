@@ -919,7 +919,14 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact {
+
+.contact-card {
+  min-height: 162px; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers content vertically */
+}
+/*.contact {
   padding-bottom: 130px;
 }
 
@@ -1098,7 +1105,7 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}
+}*/
 
 /*--------------------------------------------------------------
 # Breadcrumbs
