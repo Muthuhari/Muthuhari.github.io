@@ -910,6 +910,9 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center; /* centers content vertically */
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(100, 78, 243, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 /*.contact {
   padding-bottom: 130px;
