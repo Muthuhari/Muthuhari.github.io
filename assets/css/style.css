@@ -437,52 +437,37 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*//* Section Styling */
-.skills .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  color: #111;
-}
-
-/* Skill Cards */
-.skill-card {
+.skill-logo {
   background: #fff;
-  transition: all 0.3s ease;
-}
-.skill-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(102, 82, 229, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Skill Title */
-.skill-title {
+.skill-logo img {
+  max-width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill-logo p {
   font-weight: 600;
-  margin-bottom: 8px;
-  display: block;
   color: #173b6c;
+  margin: 0;
+  font-size: 14px;
 }
 
-/* Progress Bar */
-.skills .progress {
-  height: 14px;
-  background: #e9edf6;
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative;
+.skill-logo:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(47, 118, 242, 0.15);
 }
 
-.skills .progress-bar {
-  height: 100%;
-  background: linear-gradient(90deg, #149ddd, #4db6e6);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 6px;
-  font-size: 12px;
-  font-weight: 600;
-  color: #fff;
-  transition: width 1s ease-in-out;
+.skill-logo:hover img {
+  transform: scale(1.1);
 }
+
 
 
 /*--------------------------------------------------------------
