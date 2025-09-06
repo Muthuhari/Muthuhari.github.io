@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #07b9dc;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #07b9dc;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -122,7 +122,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #07b9dc;
   color: #fff;
   text-decoration: none;
 }
@@ -202,7 +202,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #07b9dc;
 }
 
 /* Mobile Navigation */
@@ -215,7 +215,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #07b9dc;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -330,7 +330,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #07b9dc;
 }
 
 @media (min-width: 1024px) {
@@ -383,7 +383,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #07b9dc;
   bottom: 0;
   left: 0;
 }
@@ -447,7 +447,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #07b9dc;
   float: left;
   line-height: 0;
 }
@@ -526,14 +526,14 @@ section {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #149ddd;
+  color: #07b9dc;
   position: relative;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-bottom: 20px;
-  border-left: 2px solid #149ddd;
+  border-left: 2px solid #07b9dc;
   position: relative;
 }
 
@@ -546,7 +546,7 @@ section {
   left: -8px;
   top: 0;
   background: #fff;
-  border: 2px solid #149ddd;
+  border: 2px solid #07b9dc;
 }
 
 .resume .resume-item h4 {
@@ -563,7 +563,7 @@ section {
   font-weight: 600;
   margin-bottom: 8px;
   border-radius: 5px;
-  color: #149ddd;
+  color: #07b9dc;
 }
 
 .resume .resume-item ul li {
@@ -599,7 +599,7 @@ section {
 }
 #portfolio-filters .filter-active,
 #portfolio-filters li:hover {
-  background: #149ddd;
+  background: #07b9dc;
   color: #fff;
 }
 
@@ -666,11 +666,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #07b9dc;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #07b9dc;
 }
 
 .portfolio-details .portfolio-info {
@@ -808,3 +808,10 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.gradient-blue-btn {
+    background: linear-gradient(90deg, #07b9dc, #067a91); /* Bootstrap blue → dark blue */
+  }
+  .gradient-blue-btn:hover {
+    background: linear-gradient(90deg, #07b9dc, #067a91); /* reverse on hover */
+  }
